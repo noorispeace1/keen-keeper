@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "arif.ahmed@example.com",
+    "days_since_contact": 5,
+    "status": "on track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. We both love exploring old Dhaka and drinking tea.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 2,
+    "name": "Samantha Kabir",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "samantha.k@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague at the tech firm. Always has the best book recommendations.",
+    "goal": 21,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "email": "tanvir.h@example.com",
+    "days_since_contact": 12,
+    "status": "need attention",
+    "tags": ["school", "childhood"],
+    "bio": "Grew up in the same neighborhood. Shared a passion for cricket and coding.",
+    "goal": 15,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 3,
+    "status": "on track",
+    "tags": ["family", "cousin"],
+    "bio": "Closest cousin. We plan family gatherings and share recipe secrets.",
+    "goal": 7,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 5,
+    "name": "Rashed Karim",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "rashed.karim@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["travel", "gym"],
+    "bio": "Met during a hiking trip to Sylhet. Gym buddy from back in the day.",
+    "goal": 30,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 6,
+    "name": "Anika Tabassum",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "anika.t@example.com",
+    "days_since_contact": 8,
+    "status": "on track",
+    "tags": ["art", "design"],
+    "bio": "Met at a photography workshop. We often critique each other's creative work.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Fahim Shahriar",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "email": "fahim.s@example.com",
+    "days_since_contact": 18,
+    "status": "need attention",
+    "tags": ["online", "gaming"],
+    "bio": "Met through an open-source project. Avid gamer and chess enthusiast.",
+    "goal": 20,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 8,
+    "name": "Farhana Islam",
+    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "email": "farhana.i@example.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["neighbors", "friend"],
+    "bio": "Old neighbor from the previous apartment. Very kind-hearted person.",
+    "goal": 30,
+    "next_due_date": "2026-03-10"
+  },
+  {
+    "id": 9,
+    "name": "Zayan Malik",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "zayan.m@example.com",
+    "days_since_contact": 1,
+    "status": "on track",
+    "tags": ["business", "partner"],
+    "bio": "Co-founder of our side project. We talk almost every day about tech and stocks.",
+    "goal": 3,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 10,
+    "name": "Ishrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "email": "ishrat.j@example.com",
+    "days_since_contact": 14,
+    "status": "need attention",
+    "tags": ["music", "violin"],
+    "bio": "Met at a local music school. She plays the violin beautifully.",
+    "goal": 14,
+    "next_due_date": "2026-04-14"
+  }
+]
