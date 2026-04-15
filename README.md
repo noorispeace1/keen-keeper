@@ -1,21 +1,22 @@
+Here is a refined, professional description of KeenKeeper that maintains your original meaning while enhancing the tone for a portfolio or app store listing.
 
-project name : KeenKeeper
+Project Overview: KeenKeeper
+KeenKeeper is a social CRM designed to help users nurture their most important relationships. In a world that moves fast, it’s easy for meaningful connections to slip through the cracks. This app acts as your personal "social assistant," ensuring you remain consistent and intentional with your inner circle.
 
-Project Description :
-This app helps users keep track of their friends and reminds them when it's time to reach out. It's like a personal assistant for maintaining your social circle.
+Technical Stack
+Framework: Next.js (App Router)
 
-Technologies Used
-Next.js
+Styling: Tailwind CSS & DaisyUI
 
-Tailwind CSS & daisyui
+Data Visualization: Recharts
 
-Recharts 
+Deployment: Vercel
 
-Vercel (for hosting)
 
-Key Features
-Days Since Contact: Automatically tracks how many days have passed since you last talked to a friend.
+Relationship Recency Tracker: Automatically calculates the "Days Since Contact" for every person in your network. It provides at-a-glance clarity on who you haven't spoken to lately.
 
-Communication Analytics: Provides a visual pie chart showing your interaction methods (Call, Text, or Video).
+Interaction Insights: Features a dynamic communication analytics dashboard. Using Recharts, it generates a visual breakdown (Pie Chart) of your interaction habits, categorized by Call, Text, or Video.
 
-Smart Reminders: Shows a "Next Due" date and labels friends who need attention so you never forget to check in.
+Proactive "Smart Reminders": The app intelligently assigns a "Next Due" date for each friend. It highlights individuals who are "overdue" for a check-in, removing the mental load of remembering when to reach out.
+
+Social Dashboard: A clean, centralized interface built with DaisyUI that allows users to manage their entire social circle with minimal friction.
