@@ -1,14 +1,21 @@
-import React from 'react';
+import Banner from '@/components/banner/Banner';
+import Card from '@/components/card/Card';
+import HomePage from './home/page';
 
-import AllFriendPage from './allfriend/page';
 
-const page = () => {
-  return (
-    <div>
-   
-      <AllFriendPage></AllFriendPage>
-    </div>
-  );
+
+
+const page = ({ children}) => {
+    return (
+        <div>
+            <Banner/>
+            <Card/>
+            <main>
+                <HomePage/>
+            </main>
+            
+        </div>
+    );
 };
 
 export default page;
