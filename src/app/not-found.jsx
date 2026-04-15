@@ -3,54 +3,52 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div className="relative min-h-screen overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-            {/* Background Decorative Elements (Blurry Blobs) */}
-            <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-blue-100/50 blur-3xl"></div>
-            <div className="absolute -right-20 bottom-0 h-96 w-96 rounded-full bg-purple-100/50 blur-3xl"></div>
+        <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-white selection:bg-indigo-100">
+            {/* Subtle Grid Background */}
+            <div className="absolute inset-0 z-0 opacity-[0.03] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]" 
+                 style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'40\' height=\'40\' viewBox=\'0\' 0 40 40 xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M0 0h40v40H0V0zm1 1h38v38H1V1z\' fill=\'%23000\' fill-rule=\'evenodd\'/%3E%3C/svg%3E")' }}>
+            </div>
 
-            <div className="relative z-10 mx-auto max-w-2xl text-center">
-                {/* Large 404 Text with Gradient */}
-                <p className="text-8xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-purple-600 animate-pulse">
-                    404
-                </p>
+            <div className="container relative z-10 px-6 text-center">
+                {/* Minimalist 404 Identifier */}
+                <div className="mx-auto mb-8 flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-50 ring-1 ring-slate-200">
+                    <span className="text-xl font-bold text-slate-900">404</span>
+                </div>
 
-                <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                    Ops! Halaman Hilang
+                {/* Typography with Tight Tracking */}
+                <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl">
+                    Page not found
                 </h1>
 
-                <p className="mt-6 text-lg leading-7 text-gray-600">
-                    Sepertinya kamu tersesat di ruang hampa. Halaman yang kamu cari tidak ada atau mungkin sudah pindah ke dimensi lain.
+                <p className="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-slate-500">
+                    The resource you are looking for does not exist or has been moved to a new permanent location. Please verify the URL or return to the dashboard.
                 </p>
 
-                <div className="mt-10 flex items-center justify-center gap-x-6">
+                {/* Structured Action Buttons */}
+                <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
                     <Link
                         href="/"
-                        className="group relative overflow-hidden rounded-full bg-blue-600 px-8 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-blue-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                        className="inline-flex h-11 items-center justify-center rounded-lg bg-slate-900 px-7 text-sm font-medium text-white transition-all hover:bg-slate-800 focus:ring-2 focus:ring-slate-950 focus:ring-offset-2"
                     >
-                        <span className="relative z-10">Kembali ke Beranda</span>
-                        <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-500 group-hover:translate-x-full"></div>
+                        Return to dashboard
                     </Link>
-
-                    <Link 
-                        href="/contact" 
-                        className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+                    
+                    <Link
+                        href="/support"
+                        className="inline-flex h-11 items-center justify-center rounded-lg border border-slate-200 bg-white px-7 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-50 hover:text-slate-900"
                     >
-                        Hubungi Support <span aria-hidden="true">&rarr;</span>
+                        Contact support
                     </Link>
                 </div>
             </div>
 
-            {/* Simple Animated Illustration (Floating Circle) */}
-            <div className="mt-16 flex justify-center">
-                <div className="relative h-24 w-24">
-                    <div className="absolute inset-0 animate-bounce rounded-2xl bg-blue-50">
-                        <div className="flex h-full w-full items-center justify-center text-4xl">
-                            🔍
-                        </div>
-                    </div>
-                </div>
+            {/* Bottom Footer Info */}
+            <div className="absolute bottom-8 text-center">
+                <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">
+                    System Status: <span className="text-emerald-500">All Systems Operational</span>
+                </p>
             </div>
-        </div>
+        </main>
     );
 };
 
