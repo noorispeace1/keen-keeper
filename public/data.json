@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Emma Wilson",
+    "name": "Zarin Tasnim",
     "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&q=80&w=600&fit=crop",
     "email": "emma.wilson@email.com",
     "days_since_contact": 62,
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "name": "David Kim",
+    "name": "Alif",
     "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&q=80&w=600&fit=crop",
     "email": "david.kim@email.com",
     "days_since_contact": 62,
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "name": "Lisa Nakamura",
+    "name": "najim",
     "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&q=80&w=600&fit=crop",
     "email": "lisa.nakamura@email.com",
     "days_since_contact": 62,
